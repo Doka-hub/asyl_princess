@@ -6,7 +6,6 @@ from peewee import (
     IntegerField
 )
 
-
 db = MySQLDatabase(
     'test',
     host='localhost',
